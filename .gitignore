@@ -1,0 +1,4 @@
+# Ignorar dados cacheados e grandes do KNIME
+**/filestore/
+**/port_*/data.*
+*.zip
