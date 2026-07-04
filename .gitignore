@@ -1,4 +1,11 @@
 # Ignorar dados cacheados e grandes do KNIME
 **/filestore/
 **/port_*/data.*
+
+# Ignorar arquivos compactados e tabelas extraídas
 *.zip
+*.csv
+
+# Ignorar a pasta de dados local e pastas temporárias invisíveis do KNIME
+data/
+**/knimetemp-*/
