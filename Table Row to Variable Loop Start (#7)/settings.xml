@@ -57,7 +57,7 @@
             <entry key="location_present" type="xboolean" value="true"/>
             <entry key="file_system_type" type="xstring" value="RELATIVE"/>
             <entry key="file_system_specifier" type="xstring" value="knime.workflow.data"/>
-            <entry key="path" type="xstring" value="./knimetemp-f70c58340c174194/2024.zip"/>
+            <entry key="path" type="xstring" value="./knimetemp-7150341c2ca5404b/2024.zip"/>
         </config>
         <config key="Variable_10">
             <entry key="type" type="xstring" value="variable"/>
@@ -133,6 +133,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="7634b2d7-4b0f-49bd-a318-8959fdd45121"/>
+        <entry key="file_store_id" type="xstring" value="8d2edfbf-49da-424c-bf55-ca95b6292b36"/>
     </config>
 </config>
