@@ -7,7 +7,7 @@
     </config>
     <config key="model">
         <entry key="partitioningMode" type="xstring" value="RELATIVE"/>
-        <entry key="percentage" type="xdouble" value="80.0"/>
+        <entry key="percentage" type="xdouble" value="81.25"/>
         <entry key="rowCount" type="xlong" value="100"/>
         <entry key="mode" type="xstring" value="RANDOM"/>
         <entry key="class_column" type="xstring" value="Data"/>
@@ -37,19 +37,19 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 7943904, Cols: 23"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 6454422, Cols: 23"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 1985976, Cols: 23"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 1489482, Cols: 23"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="25b34dca-ff6e-45de-86a5-237ad5d8ce20"/>
+        <entry key="file_store_id" type="xstring" value="3a5c1dfd-fb05-4546-af6b-74a67f8313bb"/>
     </config>
 </config>
