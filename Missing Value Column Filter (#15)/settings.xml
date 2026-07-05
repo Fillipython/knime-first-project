@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="columnFilter">
+            <entry key="mode" type="xstring" value="MANUAL"/>
+            <config key="patternFilter">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="isCaseSensitive" type="xboolean" value="false"/>
+                <entry key="isInverted" type="xboolean" value="false"/>
+            </config>
+            <config key="manualFilter">
+                <config key="manuallySelected">
+                    <entry key="array-size" type="xint" value="19"/>
+                    <entry key="0" type="xstring" value="Data"/>
+                    <entry key="1" type="xstring" value="Hora UTC"/>
+                    <entry key="2" type="xstring" value="UMIDADE REL. MAX. NA HORA ANT. (AUT) (%)"/>
+                    <entry key="3" type="xstring" value="UMIDADE REL. MIN. NA HORA ANT. (AUT) (%)"/>
+                    <entry key="4" type="xstring" value="UMIDADE RELATIVA DO AR, HORARIA (%)"/>
+                    <entry key="5" type="xstring" value="VENTO, DIREÇÃO HORARIA (gr) (° (gr))"/>
+                    <entry key="6" type="xstring" value="PRECIPITAÇÃO TOTAL, HORÁRIO (mm)"/>
+                    <entry key="7" type="xstring" value="PRESSAO ATMOSFERICA AO NIVEL DA ESTACAO, HORARIA (mB)"/>
+                    <entry key="8" type="xstring" value="PRESSÃO ATMOSFERICA MAX.NA HORA ANT. (AUT) (mB)"/>
+                    <entry key="9" type="xstring" value="PRESSÃO ATMOSFERICA MIN. NA HORA ANT. (AUT) (mB)"/>
+                    <entry key="10" type="xstring" value="RADIACAO GLOBAL (Kj/m²)"/>
+                    <entry key="11" type="xstring" value="TEMPERATURA DO AR - BULBO SECO, HORARIA (°C)"/>
+                    <entry key="12" type="xstring" value="TEMPERATURA DO PONTO DE ORVALHO (°C)"/>
+                    <entry key="13" type="xstring" value="TEMPERATURA MÁXIMA NA HORA ANT. (AUT) (°C)"/>
+                    <entry key="14" type="xstring" value="TEMPERATURA MÍNIMA NA HORA ANT. (AUT) (°C)"/>
+                    <entry key="15" type="xstring" value="TEMPERATURA ORVALHO MAX. NA HORA ANT. (AUT) (°C)"/>
+                    <entry key="16" type="xstring" value="TEMPERATURA ORVALHO MIN. NA HORA ANT. (AUT) (°C)"/>
+                    <entry key="17" type="xstring" value="VENTO, RAJADA MAXIMA (m/s)"/>
+                    <entry key="18" type="xstring" value="VENTO, VELOCIDADE HORARIA (m/s)"/>
+                </config>
+                <config key="manuallyDeselected">
+                    <entry key="array-size" type="xint" value="0"/>
+                </config>
+                <entry key="includeUnknownColumns" type="xboolean" value="false"/>
+            </config>
+            <config key="typeFilter">
+                <config key="selectedTypes">
+                    <entry key="array-size" type="xint" value="0"/>
+                </config>
+            </config>
+        </config>
+        <entry key="removeColumnsBy" type="xstring" value="PERCENTAGE"/>
+        <entry key="missing_value_percentage" type="xdouble" value="40.0"/>
+        <entry key="number" type="xlong" value="1"/>
+    </config>
+    <config key="variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.missingvaluecolfilter.MissingValueColumnFilterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Missing Value Column Filter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.11.0.v202602201626"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.11.0.v202602211509"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Missing Value Column Filter"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 9929880, Cols: 18"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="d5e754f2-c6a4-40f5-8afb-3981d091c242"/>
+    </config>
+</config>

@@ -1101,23 +1101,23 @@
         <entry key="array-size" type="xint" value="19"/>
         <entry key="0" type="xdouble" value="NaN"/>
         <entry key="1" type="xdouble" value="NaN"/>
-        <entry key="2" type="xdouble" value="NaN"/>
-        <entry key="3" type="xdouble" value="NaN"/>
-        <entry key="4" type="xdouble" value="NaN"/>
-        <entry key="5" type="xdouble" value="NaN"/>
-        <entry key="6" type="xdouble" value="NaN"/>
-        <entry key="7" type="xdouble" value="NaN"/>
-        <entry key="8" type="xdouble" value="NaN"/>
-        <entry key="9" type="xdouble" value="NaN"/>
-        <entry key="10" type="xdouble" value="NaN"/>
-        <entry key="11" type="xdouble" value="NaN"/>
-        <entry key="12" type="xdouble" value="NaN"/>
-        <entry key="13" type="xdouble" value="NaN"/>
-        <entry key="14" type="xdouble" value="NaN"/>
-        <entry key="15" type="xdouble" value="NaN"/>
-        <entry key="16" type="xdouble" value="NaN"/>
-        <entry key="17" type="xdouble" value="NaN"/>
-        <entry key="18" type="xdouble" value="NaN"/>
+        <entry key="2" type="xdouble" value="79.0"/>
+        <entry key="3" type="xdouble" value="72.0"/>
+        <entry key="4" type="xdouble" value="76.0"/>
+        <entry key="5" type="xdouble" value="135.0"/>
+        <entry key="6" type="xdouble" value="0.0"/>
+        <entry key="7" type="xdouble" value="969.2"/>
+        <entry key="8" type="xdouble" value="969.5"/>
+        <entry key="9" type="xdouble" value="968.9"/>
+        <entry key="10" type="xdouble" value="969.2"/>
+        <entry key="11" type="xdouble" value="24.0"/>
+        <entry key="12" type="xdouble" value="18.5"/>
+        <entry key="13" type="xdouble" value="24.5"/>
+        <entry key="14" type="xdouble" value="23.4"/>
+        <entry key="15" type="xdouble" value="19.1"/>
+        <entry key="16" type="xdouble" value="18.0"/>
+        <entry key="17" type="xdouble" value="4.3"/>
+        <entry key="18" type="xdouble" value="1.5"/>
     </config>
     <config key="missings">
         <entry key="array-size" type="xint" value="19"/>
